@@ -8,10 +8,11 @@ tags: ["others"]
 lead: "My Introduction"
 comments: false
 authorbox: true
+toc: true
 
 ---
 
-# 自己紹介
+## 自己紹介
 
 - 名前
     - Kidman (Seiji Murai)
@@ -36,3 +37,10 @@ fn main() {
     println!("Hello World!");
 }
 ```
+
+## Second
+
+### -sub
+### -sub
+
+## Third

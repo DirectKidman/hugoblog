@@ -35,7 +35,7 @@ theme = "Mainroad"
 
 [Params.sidebar]
     home = "right"
-    list = "left"
+    list = "right"
     single = false
     widgets = ["search", "recent", "taglist", "social"]
 
