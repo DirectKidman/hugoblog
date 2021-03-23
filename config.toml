@@ -1,4 +1,4 @@
 baseURL = "http://directkidman.github.io/hugoblog/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja-jp"
+title = "自由落下中のブログ"
 theme = "hugo-PaperMod"
