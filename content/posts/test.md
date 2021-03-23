@@ -1,31 +1,19 @@
 ---
-title: "Test"
+title: "投稿テスト"
 date: 2021-03-22T04:18:08+09:00
 discription: "Example article"
 draft: false
-tags: ["others"]
+tags: ["その他"]
 
-lead: "My Introduction"
+lead: "A lot of test"
 comments: false
 authorbox: true
 toc: true
 
 ---
 
-## 自己紹介
+## Code test
 
-- 名前
-    - Kidman (Seiji Murai)
-- 趣味
-    - 音楽
-    - プログラミング
-        - Python
-        - Rust
-        - C++
-    - Youtube
-    - クイズ
-
-DeepLearningとかの機械学習なんかもやってましたが、今はちょっとお休み中
 ```python
 class Hoge:
     pass
@@ -38,9 +26,12 @@ fn main() {
 }
 ```
 
-## Second
+## Mathjax test
+二次方程式\\(ax^{2}+bx+c=0\\)の解は
+\\[
+    x = \frac{-b\pm\sqrt{b^{2}-4ac}}{2a} \tag{1}
+\\]
 
-### -sub
-### -sub
 
-## Third
+## Other test
+[google](https://www.google.com)

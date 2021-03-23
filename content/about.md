@@ -10,14 +10,25 @@ widgets:
     - "taglist"
 ---
 
-Hello World!
-My name is DirectKidman
+## 自己紹介
+___
 
-Birthday: 1999/07/31
+とりあえず箇条書きでかんたんに
 
-Living: Kyoto
+- Name
+    - DirectKidman
+- University
+    - Kyoto University
+- Language
+    - Python
+    - Rust
+    - C++
+- Music instruments
+    - Piano
+    - Trumpet
+    
+一応大学生やっています。体調不良と精神的な問題で半年ほどパソコンを触らない生活をしていましたが、ちょっとばかり復活したのでブログでもやってみようかと。って感じです  
+大学は大学でも、世の中頭のいい人は本当に頭がいいので、私は広く浅くをモットーに（？）やっていこうと思っています。  
 
-数式が写せるかどうか
-$$ f(x) = \sum_{n-1}^{N} \frac{1}{N}$$
+好きなことは結構幅広いので色々投稿できるとは思うのですが、なにしろ三日坊主な性分で本当に続くのかそれだけが疑問でなりません（苦笑）
 
-文章中に\\( f(x) = \sum_{n-1}^{N} \frac{1}{N} \\) ってしたらOK？
