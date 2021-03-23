@@ -1,7 +1,7 @@
 baseURL = "http://directkidman.github.io/hugoblog/"
 languageCode = "ja-jp"
 hasCJKLanguage = true
-summaryLength = 10
+summaryLength = 30
 title = "人生自由落下中のブログ"
 theme = "Mainroad"
 [Author]
@@ -57,7 +57,7 @@ theme = "Mainroad"
         weight = 1
     [[menu.main]]
         name = "Project Euler"
-        url = "/projecteuler"
+        url = "/tags/project-euler"
         weight = 1
     [[menu.main]]
         name = "投稿一覧"

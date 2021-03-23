@@ -15,15 +15,15 @@ ___
 
 とりあえず箇条書きでかんたんに
 
-- Name
+- 名前
     - DirectKidman
-- University
+- 大学（在学中）
     - Kyoto University
-- Language
+- 使用可能なプログラミング言語
     - Python
     - Rust
     - C++
-- Music instruments
+- 趣味の楽器
     - Piano
     - Trumpet
     
