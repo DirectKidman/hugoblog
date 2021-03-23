@@ -4,16 +4,48 @@ hasCJKLanguage = true
 title = "自由落下中のブログ"
 theme = "hugo-PaperMod"
 
+[params]
+    disableHLJS = true
+
 [taxonomies]
     tag = "tags"
 
+
 [menu]
-    [[menu.global_header]]
+    [[menu.main]]
         name = "Home"
         url = "/"
         weight = 1
-    [[menu.global_header]]
+    [[menu.main]]
         name = "Blog"
-        url = "/post"
+        url = "/posts"
         weight = 2
 
+        
+[markup]
+  [markup.highlight]
+      anchorLineNos = false
+      codeFences = true
+      guessSyntax = false
+      hl_Lines = "0"
+      lineAnchors = ""
+      lineNoStart = 1
+      linenos = true
+      lineNumbersInTable = true
+      noClasses = true
+      style = "arduino"
+      tabWidth = 4
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

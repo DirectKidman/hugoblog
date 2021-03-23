@@ -23,3 +23,9 @@ DeepLearningとかの機械学習なんかもやってましたが、今はち�
 class Hoge:
     pass
 ```
+
+```Rust
+fn main() {
+    println!("Hello World!");
+}
+```
