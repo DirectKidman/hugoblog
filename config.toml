@@ -2,11 +2,45 @@ baseURL = "http://directkidman.github.io/hugoblog/"
 languageCode = "ja-jp"
 hasCJKLanguage = true
 title = "自由落下中のブログ"
-theme = "hugo-PaperMod"
+theme = "Mainroad"
+[Author]
+    name = "DirectKidman"
+    bio = "大学生らしい。理系だけど最近本を読むことにハマっている。"
 
-[params]
-    disableHLJS = true
+[Params]
+    description = "プログラミングとか音楽とかYoutubeとか私の人生を少し..."
+    copyright = "Seiji M"
+    opengraph = true
+    schema = true
+    twitter_cards = true
+    readmore = false
+    authorbox = true
+    toc = true
+    pager = true
+    post_meta = ["author","date"]
+    mainSections = ["posts"]
+    dateformat = "2006-01-02"
+    mathjax = true
+    mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+    mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
 
+[Params.logo]    
+    title = "自由落下中のブログ"
+    subtitle = "思いついたときに書こうかなと。"
+
+[Params.sidebar]
+    home = "right"
+    list = "left"
+    single = false
+    widgets = ["search", "recent", "taglist", "social"]
+
+[Params.widgets]
+    recent_num = 5
+    tags_counter = true
+
+[Params.widgets.social]
+    github = "DirectKidman"
+    
 [taxonomies]
     tag = "tags"
 
@@ -17,35 +51,22 @@ theme = "hugo-PaperMod"
         url = "/"
         weight = 1
     [[menu.main]]
-        name = "Blog"
+        name = "投稿一覧"
         url = "/posts"
         weight = 2
 
         
 [markup]
-  [markup.highlight]
-      anchorLineNos = false
-      codeFences = true
-      guessSyntax = false
-      hl_Lines = "0"
-      lineAnchors = ""
-      lineNoStart = 1
-      linenos = true
-      lineNumbersInTable = true
-      noClasses = true
-      style = "arduino"
-      tabWidth = 4
+    [markup.highlight]
+        anchorLineNos = false
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = "0"
+        lineAnchors = ""
+        lineNoStart = 1
+        linenos = true
+        lineNumbersInTable = true
+        noClasses = true
+        style = "manni"
+        tabWidth = 4
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
