@@ -1,7 +1,8 @@
 baseURL = "http://directkidman.github.io/hugoblog/"
 languageCode = "ja-jp"
 hasCJKLanguage = true
-title = "自由落下中のブログ"
+summaryLength = 30
+title = "人生自由落下中のブログ"
 theme = "Mainroad"
 [Author]
     name = "DirectKidman"
@@ -23,9 +24,13 @@ theme = "Mainroad"
     mathjax = true
     mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
     mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+    customCSS = ["css/custom.css"]
+
+[Params.style.vars]
+    highlightColor = "#00ced1"
 
 [Params.logo]    
-    title = "自由落下中のブログ"
+    title = "人生自由落下中のブログ"
     subtitle = "思いついたときに書こうかなと。"
 
 [Params.sidebar]
@@ -47,8 +52,8 @@ theme = "Mainroad"
 
 [menu]
     [[menu.main]]
-        name = "Home"
-        url = "/"
+        name = "About me"
+        url = "/about"
         weight = 1
     [[menu.main]]
         name = "投稿一覧"
