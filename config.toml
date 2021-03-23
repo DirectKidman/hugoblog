@@ -1,4 +1,19 @@
 baseURL = "http://directkidman.github.io/hugoblog/"
 languageCode = "ja-jp"
+hasCJKLanguage = true
 title = "自由落下中のブログ"
 theme = "hugo-PaperMod"
+
+[taxonomies]
+    tag = "tags"
+
+[menu]
+    [[menu.global_header]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.global_header]]
+        name = "Blog"
+        url = "/post"
+        weight = 2
+
