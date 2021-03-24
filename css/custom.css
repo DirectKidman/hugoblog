@@ -16,3 +16,8 @@ body {
 .main__title {
     color: #8a2be2;
 }
+
+.MathJax_Display {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
